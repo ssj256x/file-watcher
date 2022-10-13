@@ -1,0 +1,13 @@
+Configuration:
+  name: Default
+  Appenders:
+    Console:
+      name: LogToConsole
+      target: SYSTEM_OUT
+      PatternLayout:
+        pattern: "%d [%t] %-5p %c{1.} - %m%n"
+  Loggers:
+    Root:
+      level: debug
+      AppenderRef:
+        - ref: LogToConsole

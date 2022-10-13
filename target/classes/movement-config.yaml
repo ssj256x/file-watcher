@@ -1,0 +1,15 @@
+directory:
+  categories: [ audio, images, jars, text, videos, executable, compressed, other ]
+  move: C:/Work/Data/
+  track:
+    - C:/Users/ssj25/Desktop/track
+
+fileClassifications:
+  audio: [ m4a, mp3, flac, mp4, wav, wma, aac ]
+  images: [ tif, tiff, bmp, jpg, jpeg, gif, png, eps, raw ]
+  jars: [ jar ]
+  text: [ txt, text, log, doc, docx, odt, pdf, wpd ]
+  videos: [ webm, mpg, mp2, mpeg, mpe, mpv, ogg, mp4, m4p, m4v, avi, wmv, mov, qt, flv, swf, avchd ]
+  executable: [ exe, msi, msp, bat, sh ]
+  compressed: [ zip, rar, 7z, tgz ]
+  random: [ ]
